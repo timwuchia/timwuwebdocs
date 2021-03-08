@@ -1,0 +1,27 @@
+.hc-accordian {
+  .hc-accordian-title {
+    background-color: theme-color("primary");
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .acc-toggle-btn {
+      transition: all 0.4s;
+      &.rotate {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  .hc-accordian-content {
+    line-height: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.4s;
+    &.show {
+      transition: all 0.4s;
+      height: auto;
+      line-height: inherit;
+    }
+  }
+}
