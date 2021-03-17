@@ -11719,27 +11719,24 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-.hc-accordian .hc-accordian-title {
-  background-color: #007bff;
-  color: #fff;
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-  .hc-accordian .hc-accordian-title .acc-toggle-btn {
-    transition: all 0.4s; }
-    .hc-accordian .hc-accordian-title .acc-toggle-btn.rotate {
-      transform: rotate(180deg); }
+header {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  header h2 {
+    margin-bottom: 0; }
+  header a {
+    color: #fff; }
+  header .navbar-nav {
+    flex-direction: row; }
+    header .navbar-nav li:not(:last-child) {
+      margin-right: 0.75rem; }
 
-.hc-accordian .hc-accordian-content {
-  line-height: 0;
-  height: 0;
-  overflow: hidden;
-  transition: all 0.4s; }
-  .hc-accordian .hc-accordian-content.show {
-    transition: all 0.4s;
-    height: auto;
-    line-height: inherit; }
+#primary {
+  padding-top: 4.5rem; }
+
+p {
+  margin-bottom: 0.25rem; }
 
 
 /*# sourceMappingURL=main.css.map*/

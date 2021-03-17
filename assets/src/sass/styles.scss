@@ -49,5 +49,8 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "~bootstrap/scss/utilities";
 @import "~bootstrap/scss/print";
 
-// blocks
-@import "./blocks/blocks";
+// components
+@import "./components/header";
+
+// layouts
+@import "./layouts/content";

@@ -1,0 +1,17 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  h2 {
+    margin-bottom: 0;
+  }
+  a {
+    color: #fff;
+  }
+  .navbar-nav {
+    flex-direction: row;
+    li:not(:last-child) {
+      margin-right: 0.75rem;
+    }
+  }
+}
